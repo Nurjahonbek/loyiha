@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62,5%;
+    scroll-behavior: smooth;
+
+}
+html,
+body,
+#root{
+    height: 100%;
+}
+ul,
+ol{
+    list-style: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+
+}
+img{
+    display: flex;
+    object-fit: cover;
+}
+
+body{
+    font-size: $text-preset-4;
+    background-color: bisque;
+    font-family: $global-font-family;
+}

@@ -1,4 +1,4 @@
-import "./transactions.scss"
+import "./Transactions.scss"
 
 function transactions() {
   return (

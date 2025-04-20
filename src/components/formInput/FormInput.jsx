@@ -1,10 +1,12 @@
-import React from 'react'
+import './FormInput.scss'
 
-function FormInput() {
+function FormInput({label, name, placeholder, type}) {
   return (
-    <div>
-      
-    </div>
+    <label>
+      <span>{label}</span>
+      <input type={type} name={name} placeholder={placeholder} />
+
+    </label>
   )
 }
 
