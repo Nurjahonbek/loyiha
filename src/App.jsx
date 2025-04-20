@@ -1,4 +1,4 @@
-
+import './index.scss'
 import './App.scss'
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-
+  <h1>hello</h1>
     </>
   )
 }
